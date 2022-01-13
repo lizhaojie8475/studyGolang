@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="becb8482-3a9c-4d89-9bf0-c07a63b8966b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/main.go" afterDir="false" />
+    <list default="true" id="f0083c4d-d47e-410d-826c-bf3fb79125f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study-socket/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-socket/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study-socket/server/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../study-socket/server/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +43,7 @@
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
-  <component name="ProjectId" id="23MQwvE3APwGj1LSvt6tfhg4s7M" />
+  <component name="ProjectId" id="23PN2TpAOIqXdiX4sD10z3ceV4v" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />

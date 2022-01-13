@@ -6,12 +6,14 @@ import (
 	"github.com/lizhaojie8475/studyGolang/study-socket/server/proto"
 	"io"
 	"net"
+	"time"
 )
 
 func process(conn net.Conn) {
 	defer conn.Close()
 	reader := bufio.NewReader(conn)
 	for {
+		time.Sleep(time.Second * 2)
 		msg, err := proto.Decode(reader)
 		if err == io.EOF {
 			return
@@ -29,6 +31,8 @@ func main() {
 	if err != nil {
 		fmt.Println("listen failed, err:", err)
 		return
+	} else {
+		fmt.Println("Is listening message...")
 	}
 	defer listen.Close()
 	for {
